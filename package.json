@@ -2,10 +2,7 @@
   "name": "dynogels",
   "version": "9.0.0",
   "author": "Ryan Fitzgerald <ryan@codebrewstudios.com>",
-  "contributors": [
-    "Clarkie <andrew.t.clarke@gmail.com> (http://clarkie.io)"
-  ],
-  "description": "DynamoDB data mapper",
+  "description": "DynamoDB data mapper - forked with updated dependencies",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -13,7 +10,7 @@
     "ci": "make coverage",
     "coveralls": "cat coverage/lcov.info | coveralls"
   },
-  "repository": "git://github.com/clarkie/dynogels.git",
+  "repository": "git@github.com:vipoo/dynogels.git",
   "keywords": [
     "datamapper",
     "DynamoDB",
