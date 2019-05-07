@@ -1,5 +1,5 @@
 {
-  "name": "dynogels",
+  "name": "@dnetherton/dynogels",
   "version": "9.0.0",
   "author": "Ryan Fitzgerald <ryan@codebrewstudios.com>",
   "description": "DynamoDB data mapper - forked with updated dependencies",
@@ -10,7 +10,10 @@
     "ci": "make coverage",
     "coveralls": "cat coverage/lcov.info | coveralls"
   },
-  "repository": "git@github.com:vipoo/dynogels.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vipoo/dynogels.git"
+  },
   "keywords": [
     "datamapper",
     "DynamoDB",
@@ -43,5 +46,14 @@
   },
   "peerDependencies": {
     "joi": "^11.3.4"
+  },
+  "bugs": {
+    "url": "https://github.com/vipoo/dynogels/issues"
+  },
+  "homepage": "https://github.com/vipoo/dynogels#readme",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   }
 }
